@@ -14,5 +14,6 @@ while (alphabet <= end)
 putchar(alphabet);
 alphabet++;
 }
+putchar('\n');
 return (0);
 }

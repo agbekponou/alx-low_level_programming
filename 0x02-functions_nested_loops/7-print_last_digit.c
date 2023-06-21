@@ -9,13 +9,10 @@
 int print_last_digit(int c)
 {
 int value;
-if (c > 0)
-{
 value = c % 10;
-}
-else if (c <= 0)
+if (value < 0)
 {
-value = (c * -1) % 10;
+value = value * -1;
 }
 _putchar(value + '0');
 return (value);

@@ -17,6 +17,7 @@ return (square_root_helper(n, 0));
  * square_root_helper - finds natural square root of a number
  * @n: number to calculate square on
  * @j: iterates through the number
+ * Return: It returns the square of the number
  */
 int square_root_helper(int n, int j)
 {

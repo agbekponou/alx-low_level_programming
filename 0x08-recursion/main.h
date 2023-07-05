@@ -12,4 +12,5 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int square_root_helper(int n, int j);
 int prime(int n, int i);
+int is_palindrome_recursive(char *s, int start, int end);
 #endif
